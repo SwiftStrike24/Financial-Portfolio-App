@@ -1,0 +1,72 @@
+.container {
+  backdrop-filter: blur(10px);
+  background-color: rgba(49, 49, 49, 0.7);
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 30px;
+}
+
+.table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.input {
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin-bottom: 15px;
+  width: calc(100% - 30px);
+}
+
+.button {
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #3d94f6;
+  color: white;
+  box-shadow: 0 4px 15px rgba(61, 148, 246, 0.4);
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #1a73e8;
+}
+
+/* New styles for titles and captions */
+.title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.caption {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .input, .button {
+    width: 100%;
+  }
+}
